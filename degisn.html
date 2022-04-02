@@ -5,55 +5,117 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>科技</title>
-    <link rel="stylesheet" type="text/css" href="./css/style.css"></link>
+    <link rel="stylesheet" type="text/css" href="./css/common.css" />
+    <link rel="stylesheet" type="text/css" href="./css/design.css" />
 </head>
-<body>
+<body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
     <!-- 头部 -->
     <header id="header">
         <div id="nav">
             <ul>
                 <li class="addImg">
-                    <span id="indexImg"><img src="./images/Adobe_Corporate.svg" alt="" /></span>
-                    <span id="adobe">Adobe</span>
+                    <span id="indexImg"><img width="100%" src="./images/logo.png" alt="" /></span>
+                    <!-- <span id="adobe">BFSU</span> -->
                 </li>
-                <li><a href="./index.html">Adobe Home</a></li>
-                <li class="active"><a href="./degisn.html">Design&Technology</a></li>
-                <li><a href="./introduce.html">Introduce</a></li>
-                <li><a href="#footer">Contact</a></li>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./introduction.html">Introduction</a></li>
+                <li class="active"><a href="./degisn.html">Design</a></li>
                 <li style="float:right"><a href="https://helpx.adobe.com/cn/premiere-pro/user-guide.html">About me</a></li>
             </ul>
         </div>
         <div id="textNav">
             <ul>
-                <li class="active"><a href="#">Home</a></li>
+                <li><a href="./index.html">Home</a></li>
                 <li>/</li>
-                <li><a href="#">Adobe Creative Cloud</a></li>
+                <li class="active"><a href="./degisn.html">Video Processing</a></li>
                 <li>/</li>
-                <li><a href="#">Adobe Premiere Pro</a></li>
+                <li><a href="./audio.html">Audio Processing</a></li>
             </ul>
         </div>
     </header>
 
     <!-- 内容 -->
-    <div id="content" style="width: 100%;height: 2000px;">
+    <div id="content" style="width: 100%;">
 
-        <!-- 电影行业 -->
-        <!-- Godzilla -->
-        <div>
-            <div></div>
-            <div></div>
+        <div style=" width: 100%; margin: 5% 0 5% 0;">
+            <div style="width: 60%; margin: auto;">
+                <h1 style="width: 100%;">1.添加过渡效果</h1>
+                <p>当一个剪辑结束之后，下一个剪辑开始之前，都会有一个过渡。
+                    最常见的过渡就是剪切，也就是下一个剪辑直接开始。最常见的过渡特效就是视频的交叉溶解，或音频的淡入淡出。</p>
+                <video width="100%" style="display: block;margin: auto;" controls="controls" autoplay="autoplay">
+                    <source src="./images/过渡效果.mp4" type="video/mp4" />
+                </video> 
+                <h2 style="width: 100%;">视频插入</h2>
+                <ul style="padding-left: 2%;">
+                    <li>
+                        在“Effects”（效果）面板中浏览“Video Transitions”（视频过渡）类别。
+                        若要应用视频过渡效果，可将效果从“Effects”（效果）面板拖放到序列中两个剪辑间的编辑点。
+                    </li>
+                    <li >
+                        若要在时间线面板中调整过渡效果的时间点或持续时间，可将效果拖动至两个剪辑间
+                        相对于编辑点的新位置，或使用修剪剪辑的方法，拖动效果末端。
+                    </li>
+                    <li>
+                        若要在“Effect Controls”（效果控件）面板中访问过渡效果设置，应首先在时间线面板中选中效果。
+                    </li>
+                    <li>选择过渡效果并按 Delete 键可以将其删除。</li>
+                    <li>将其他过渡效果拖放到原有效果上，可替换原有效果。替换效果将具有与原有效果相同的持续时间与时间点。</li>
+                </ul>
+            </div>
         </div>
 
-        <!-- 短视频 -->
-        <div>
-            <div></div>
-            <div></div>
+        <div style=" width: 100%; margin: 5% 0 5% 0;">
+            <div style="width: 60%; margin: auto;">
+                <h1 style="width: 100%;">2.添加视觉效果</h1>
+                <video width="100%" style="display: block;margin: auto;" controls="controls" autoplay="autoplay">
+                    <source src="./images/视觉效果.mp4" type="video/mp4" />
+                </video> 
+                <h2 style="width: 100%;">添加过渡效果</h1>
+                <ul style="padding-left: 2%;">
+                    <li>
+                        依次选择“Window”（窗口）>“Workspaces”（工作区）>“Effects”（效果），进入“Effects”（效果）工作区,
+                        在“Effects”（效果）面板的“Search”（搜索）栏中输入效果名称，即会显示相应的效果。
+                    </li>
+                    <li>
+                        若要应用视觉效果，可将效果拖放至序列中的剪辑上。
+                    </li>
+                    <li>在您的序列中选择一个剪辑，可在“Effect Controls”（效果控件）面板中查看并更改它的效果设置。
+                        不同效果的控件和选项有所不同。</li>
+                    <li>
+                        在“Effect Controls”（效果控件）面板中，您可以使用相应的重置按钮重置任何设置。
+                        在“Effect Controls”（效果控件）面板中，选择效果名称并按 Delete 键可以移除效果。
+                        按 Control+Z (Windows) 或 Command+Z (MacOS) 可以撤消操作。
+                    </li>
+                    <li>选择过渡效果并按 Delete 键可以将其删除。</li>
+                    <li>效果编辑完成后，可回到“Editing”（编辑）工作区。</li>
+                </ul>
+            </div>
         </div>
 
-        <!-- 技术支持 -->
-        <div>
-            <div></div>
-            <div></div>
+        <div style=" width: 100%; margin: 5% 0 5% 0;">
+            <div style="width: 60%; margin: auto;">
+                <h1 style="width: 100%;">3.创建效果预设</h1>
+                <video width="100%" style="display: block;margin: auto;" controls="controls" autoplay="autoplay">
+                    <source src="./images/效果预设.mp4" type="video/mp4" />
+                </video> 
+                <h2 style="width: 100%;">视频插入</h1>
+                <ul style="padding-left: 2%;">
+                    <li>
+                        在您根据需要设置效果后，可将其保存为预设。
+                    </li>
+                    <li>
+                        在“Effect Controls”（效果控件）面板中右键单击效果名称并选择“Save Preset”（保存预设）。
+                        给预设命名并添加描述。效果预设将出现在“Effects”（效果）面板的“Presets”（预设）类别中。
+                    </li>
+                    <li>
+                        应用效果预设的方法与应用任何其它视觉效果的方法相同——直接拖放到剪辑上即可。
+                    </li>
+                    <li>
+                        在“Effect Controls”（效果控件）面板中按住 Control (Windows) 或 Command (MacOS) 键选择多个效果，可将多个效果合并为单一预设。
+                        右键单击任一选定效果并选择“Create Preset”（创建预设）。
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 
@@ -62,19 +124,7 @@
     <footer id="footer">
         <div>
             <p class="text">
-                电话:010-88816200
-            </p>
-            <p>/</p>
-            <p class="text">
-                地址:北京市海淀区西三环北路2号
-            </p>
-            <p>/</p>
-            <p class="text">
-                Designed By Angelina
-            </p>
-            <p>/</p>
-            <p class="text">
-                Copyright &copy; 2022 Angelina. All rights reserved
+                Designed by MengSha &copy; 2022. All rights reserved
             </p>
         </div>
     </footer>

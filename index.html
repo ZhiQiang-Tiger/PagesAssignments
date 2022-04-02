@@ -5,41 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>主页</title>
-    <link rel="stylesheet" type="text/css" href="./css/style.css"></link>
+    <link rel="stylesheet" type="text/css" href="./css/common.css" />
 </head>
 <body>
     <header id="header">
         <div id="nav">
             <ul>
                 <li class="addImg">
-                    <span id="indexImg"><img src="./images/Adobe_Corporate.svg" alt="" /></span>
-                    <span id="adobe">Adobe</span>
+                    <span id="indexImg"><img width="100%" src="./images/logo.png" alt="" /></span>
+                    <!-- <span id="adobe">BFSU</span> -->
                 </li>
-                <li class="active"><a href="./index.html">Adobe Home</a></li>
-                <li><a href="./degisn.html">Design&Technology</a></li>
-                <li><a href="./introduce.html">Introduce</a></li>
-                <li><a href="#footer">Contact</a></li>
+                <li class="active"><a href="./index.html">Home</a></li>
+                <li><a href="./introduction.html">Introduction</a></li>
+                <li><a href="./degisn.html">Design</a></li>
                 <li style="float:right"><a href="https://helpx.adobe.com/cn/premiere-pro/user-guide.html">About me</a></li>
             </ul>
         </div>
         <div id="textNav">
             <ul>
-                <li class="active"><a href="#">Home</a></li>
+                <li class="active"><a href="./index.html">Home</a></li>
                 <li>/</li>
-                <li><a href="https://www.adobe.com/creativecloud.html">Adobe Creative Cloud</a></li>
+                <li><a href="./degisn.html">Video Processing</a></li>
                 <li>/</li>
-                <li><a href="#">Adobe Premiere Pro</a></li>
+                <li><a href="./audio.html">Audio Processing</a></li>
             </ul>
         </div>
     </header>
 
     <!-- 大幕布 -->
-    <div class="bigBack">
+    <div class="bigBack" style="clear: both;">
         <div class="leftContent">
             <div class="textMargin">
                 <img src="./images/desktop_premiere.svg" alt="" >
                 <h1>Premiere Pro</h1>
-                <p>
+                 <p>
                     Premiere Pro是视频编辑爱好者和专业人士必不可少的视频编辑工具。
                     它可以提升您的创作能力和创作自由度，它是易学、高效、精确的视频剪辑软件。 
                 </p>
@@ -55,57 +54,57 @@
         </div>
     </div>
 
-    
+    <!-- <h1>XXXXXXXXXXXXXXXXXXX</h1> -->
+    <div style="width: 100%; clear: both;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+        <div style="float: left; margin-left: 3.5%; margin-top: 5%; ;width: 45%;">
+            <div style="width: 100%;">
+                <video width="100%" controls="controls" autoplay="autoplay">
+                    <source src="./images/创建项目_1.mp4" type="video/mp4" />
+                </video>  
+                <h2>Create a new project</h2>
+                <p>You can create a new project or open a  recent project.</p>
+            </div>
+        </div>
 
-    <!-- 图片导航 -->
-    <div id="imgGallery">
-        <h1>Some Beautiful Images</h1>
-        <div class="gallery">
-            <a target="_blank" href="/i/photo/tulip-yellow.jpg">
-              <img src="./images/flowerTree1.jpg" alt="Cinque Terre">
-            </a>
-            <div class="desc">A Tree Of Flower</div>
-          </div>
-          
-          <div class="gallery">
-            <a target="_blank" href="img_forest.jpg">
-              <img src="./images/moon.jpg" alt="Forest">
-            </a>
-            <div class="desc">月亮</div>
-          </div>
-          
-          <div class="gallery">
-            <a target="_blank" href="img_lights.jpg">
-              <img src="./images/sea1.jpg" alt="Northern Lights">
-            </a>
-            <div class="desc">The Blue Sea</div>
-          </div>
-          
-          <div class="gallery">
-            <a target="_blank" href="img_mountains.jpg">
-              <img src="./images/flower3.jpg" alt="Mountains">
-            </a>
-            <div class="desc">Give A Flower To You</div>
-          </div>
+        <div style="float: left;  margin-left: 3.5%; margin-top: 5%;  width: 45%;">
+            <div style="width: 100%;">
+                <video width="100%" controls="controls" autoplay="autoplay">
+                    <source src="./images/工作区_2.mp4" type="video/mp4" />
+                </video>  
+                <h2>Working area</h2>
+                <p>You can first learn its basic working areas to be famliar with the Premiere Pro.</p>
+            </div>
+        </div>
     </div>
 
-    <!-- 尾部 -->
+
+    <div style="width: 100%; clear: both;both;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+        <div style="float: left; margin-left: 3.5%; margin-top: 3%;margin-bottom: 5%; width: 45%;">
+            <div style="width: 100%;">
+                <video width="100%" controls="controls" autoplay="autoplay">
+                    <source src="./images/导入媒体_1.mp4" type="video/mp4" />
+                </video>  
+                <h2>Import media</h2>
+                <p>After videos are imported to Premiere Pro, them will present themselves on the editing area.</p>
+            </div>
+        </div>
+
+        <div style="float: left; margin-left: 3.5%; margin-top: 3%; margin-bottom: 5%;width: 45%;">
+            <div style="width: 100%;">
+                <video width="100%" controls="controls" autoplay="autoplay">
+                    <source src="./images/创建序列_1.mp4" type="video/mp4" />
+                </video>  
+                <h2>Create a new sequence</h2>
+                <p>Before editing, you should first creat a sequence for most of your editing work is completed in sequences.</p>
+            </div>
+        </div>
+    </div>
+
+    <!--尾部--> 
     <footer id="footer">
         <div>
             <p class="text">
-                电话:010-88816200
-            </p>
-            <p>/</p>
-            <p class="text">
-                地址:北京市海淀区西三环北路2号
-            </p>
-            <p>/</p>
-            <p class="text">
-                Designed By Angelina
-            </p>
-            <p>/</p>
-            <p class="text">
-                Copyright &copy; 2022 Angelina. All rights reserved
+                Designed by MengSha &copy; 2022. All rights reserved
             </p>
         </div>
     </footer>
